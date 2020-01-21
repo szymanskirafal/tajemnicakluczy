@@ -1,0 +1,2 @@
+python-dotenv
+django==1.9.3

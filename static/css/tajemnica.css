@@ -1,0 +1,32 @@
+home, body {
+    height: 100%;
+}
+
+.g {
+    background-color: gray;
+    height: 100%;
+}
+
+ .gg {
+    position: relative;
+    background-image: url("/images/4keys.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.long {
+    height: 100%;
+}
+
+.green {
+    background-color: green;
+    color: green;
+}
+
+.higher {
+    font-size: 200px;
+}

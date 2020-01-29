@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<br><br>
+<div class="container text-center">
+    <p class="lead">Choć pierwsze trzy bramy</p>
+    <p class="lead">Łatwo jest odszukać</p>
+    <p class="lead">To przestrzegam wszystkich</p>
+    <p class="lead">Żeby w nie NIE pukać</p>
+    <img src="{% static 'images/window.jpg' %}" class="img-thumbnail" alt="Window">
+    <br><br>
+    <a class="btn btn-lg btn-outline-secondary" href="{% url 'puzzles:keys2' %}" role="button"> << </a>
+    <a class="btn btn-lg btn-outline-secondary" href="{% url 'puzzles:keys4' %}" role="button"> >> </a>
+    <br><br>
+</div>
+
+{% endblock content %}

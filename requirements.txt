@@ -1,2 +1,2 @@
 python-dotenv
-django==1.9.3
+django==1.11.27

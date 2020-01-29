@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container text-center">
+    <h1>Tajemnica Kluczy</h1>
+    <img src="{% static 'images/keys.jpg' %}" class="img-fluid" alt="Klucze">
+    <br><br>
+    <p>Spróbuj rozwiązać tajemnicę 4 kluczy, a odnajdziesz kod, który otwiera pewien zamek. Wiesz, który zamek prawda? Podążaj za głosem serca, lecz uważaj, by nie postradać rozumu.</p>
+    <a class="btn btn-lg btn-outline-secondary" href="{% url 'puzzles:keys' %}" role="button"> >> </a>
+    <br><br>
+
+</div>
+
+
+
+{% endblock content %}

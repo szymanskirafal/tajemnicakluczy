@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<br><br>
+<div class="container text-center">
+    <p class="lead">Klucze:</p>
+    <p class="lead">Śmierci, Kary, Choroby i Wiary.</p>
+    <img src="{% static 'images/4keys.png' %}" class="img-thumbnail" alt="4 Keys">
+    <br><br>
+    <a class="btn btn-lg btn-outline-secondary" href="{% url 'home' %}" role="button"> << </a>
+    <a class="btn btn-lg btn-outline-secondary" href="{% url 'puzzles:keys2' %}" role="button"> >> </a>
+    <br><br>
+</div>
+{% endblock content %}
